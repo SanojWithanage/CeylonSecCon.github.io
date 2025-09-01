@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CeylonSecCon - Sri Lanka's Premier Cybersecurity Conference</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>CeylonSecCon</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#workshops">Workshops</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">CEYLON SECURITY CONFERENCE</h1>
+                <p class="hero-subtitle">Sri Lanka's Premier Cybersecurity Event</p>
+                <p class="hero-date">March 15-16, 2024 | Colombo, Sri Lanka</p>
+                <div class="hero-buttons">
+                    <a href="#register" class="btn btn-primary">Register Now</a>
+                    <a href="#speakers" class="btn btn-secondary">View Speakers</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="conference-visual">
+                    <div class="audience-silhouette"></div>
+                    <div class="stage-lights"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2>About CeylonSecCon</h2>
+            <p>Join Sri Lanka's leading cybersecurity professionals, researchers, and enthusiasts for two days of cutting-edge presentations, hands-on workshops, and networking opportunities. CeylonSecCon brings together the brightest minds in information security to share knowledge and advance the field.</p>
+            <div class="stats">
+                <div class="stat">
+                    <h3>500+</h3>
+                    <p>Attendees</p>
+                </div>
+                <div class="stat">
+                    <h3>30+</h3>
+                    <p>Speakers</p>
+                </div>
+                <div class="stat">
+                    <h3>15+</h3>
+                    <p>Workshops</p>
+                </div>
+                <div class="stat">
+                    <h3>2</h3>
+                    <p>Days</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section id="speakers" class="speakers">
+        <div class="container">
+            <h2>Featured Speakers</h2>
+            <div class="speakers-grid">
+                <div class="speaker-card">
+                    <div class="speaker-image"></div>
+                    <h3>Dr. Samantha Perera</h3>
+                    <p class="speaker-title">Chief Security Officer, TechCorp</p>
+                    <p class="speaker-topic">Advanced Threat Detection</p>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image"></div>
+                    <h3>Rajesh Kumar</h3>
+                    <p class="speaker-title">Penetration Testing Expert</p>
+                    <p class="speaker-topic">Web Application Security</p>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image"></div>
+                    <h3>Nimal Fernando</h3>
+                    <p class="speaker-title">Incident Response Specialist</p>
+                    <p class="speaker-topic">Digital Forensics</p>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-image"></div>
+                    <h3>Priya Jayawardena</h3>
+                    <p class="speaker-title">Cloud Security Architect</p>
+                    <p class="speaker-topic">Zero Trust Architecture</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="schedule">
+        <div class="container">
+            <h2>Conference Schedule</h2>
+            <div class="schedule-tabs">
+                <button class="tab-btn active" data-day="day1">Day 1 - March 15</button>
+                <button class="tab-btn" data-day="day2">Day 2 - March 16</button>
+            </div>
+            <div class="schedule-content">
+                <div class="day-schedule active" id="day1">
+                    <div class="schedule-item">
+                        <div class="time">09:00 - 09:30</div>
+                        <div class="event">Registration & Welcome Coffee</div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">09:30 - 10:30</div>
+                        <div class="event">Keynote: The Future of Cybersecurity in Sri Lanka</div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">10:45 - 11:30</div>
+                        <div class="event">Advanced Threat Detection Techniques</div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">11:45 - 12:30</div>
+                        <div class="event">Web Application Security Best Practices</div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">14:00 - 17:00</div>
+                        <div class="event">Hands-on Workshops</div>
+                    </div>
+                </div>
+                <div class="day-schedule" id="day2">
+                    <div class="schedule-item">
+                        <div class="time">09:00 - 09:45</div>
+                        <div class="event">Digital Forensics in the Modern Era</div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">10:00 - 10:45</div>
+                        <div class="event">Zero Trust Security Architecture</div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">11:00 - 11:45</div>
+                        <div class="event">Cloud Security Challenges</div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">12:00 - 12:45</div>
+                        <div class="event">Panel Discussion: Industry Trends</div>
+                    </div>
+                    <div class="schedule-item">
+                        <div class="time">14:00 - 16:00</div>
+                        <div class="event">Capture The Flag Competition</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="registration">
+        <div class="container">
+            <h2>Register Now</h2>
+            <div class="registration-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Organization">
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Select Ticket Type</option>
+                            <option value="student">Student - $50</option>
+                            <option value="professional">Professional - $150</option>
+                            <option value="corporate">Corporate - $300</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Complete Registration</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CeylonSecCon</h3>
+                    <p>Sri Lanka's premier cybersecurity conference bringing together security professionals and enthusiasts.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#speakers">Speakers</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#register">Register</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@ceylonseccon.lk</p>
+                    <p>Phone: +94 11 234 5678</p>
+                    <p>Colombo, Sri Lanka</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CeylonSecCon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
